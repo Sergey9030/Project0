@@ -6,7 +6,7 @@ numbers = []
 for i in range(end_of_num): #  Формируем список numbers
     numbers.append(i+1)
 primes = []
-not_primes = []  #  Единицу не считают простым числом
+not_primes = []
 for i in range(1, len(numbers)):  #  Начинаем со второго числа
     is_prime=True
     for j in range(1, i):

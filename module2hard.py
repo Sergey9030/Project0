@@ -20,9 +20,9 @@ if str_n.isdigit() and (int(str_n) >= 3):
     result = []
     for i in range(1, n):
         for j in range(i+1, n):
-            if (n % (i + j) == 0): #and (i != j):
+            if (n % (i + j) == 0):
                 result.append(i)
                 result.append(j)
     print('Пароль: ', *result, sep='')
 else:
-    print('Неверный ввод. Попробуйте в еще раз.')
+    print('Неверный ввод. Попробуйте еще раз.')

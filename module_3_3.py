@@ -10,3 +10,5 @@ print_params(*values_list)
 print_params(values_dict)
 print_params(*values_dict)
 print_params(**values_dict)
+values_list_2 = [54.32, 'Строка' ]
+print_params(*values_list_2, 42)
